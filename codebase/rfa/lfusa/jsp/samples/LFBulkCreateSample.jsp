@@ -41,6 +41,7 @@
 <jsp:useBean id="fg" scope="request" class="com.lcs.wc.client.web.FormGenerator" />
 <jsp:useBean id="flexg" scope="request" class="com.lcs.wc.client.web.FlexTypeGenerator" />
 <jsp:setProperty name="wtcontext" property="request" value="<%=request%>"/>
+hello how are you.i am fine.how is today.is it going well.do you define youreself any time
 <% wt.util.WTContext.getContext().setLocale(request.getLocale());%>
 <%-- ////////////////////////////////////////////////////////////////////////////////////--%>
 <%-- ////////////////////////////// INITIALIZATION JSP CODE /////////////////////////////--%>
