@@ -885,7 +885,7 @@ Hashtable measurementsTable = new Hashtable();
               return false;
          }
 
-	 if(branch['lfFloatSampleQuantity'] < 0){                   
+	 if(branch['lfFloatSampleQuantity'] <= 0){                   
 	      alert(' Minimum Sample Quantity should be 1');
               return false;
          }
